@@ -30,6 +30,9 @@ namespace SmartRetailAR.Data
         [NonSerialized]
         private Dictionary<string, int> _productScanCount;
         
+        [NonSerialized]
+        private bool _isDictionaryInitialized = false;
+        
         // Settings
         public bool notificationsEnabled;
         public bool ecoModeEnabled;
@@ -48,6 +51,23 @@ namespace SmartRetailAR.Data
             notificationsEnabled = true;
             ecoModeEnabled = true;
             preferredLanguage = "en";
+            InitializeDictionary();
+        }
+        
+        /// <summary>
+        /// Initialize runtime dictionary from lists
+        /// </summary>
+        private void InitializeDictionary()
+        {
+            if (_isDictionaryInitialized) return;
+            
+            _productScanCount = new Dictionary<string, int>();
+            for (int i = 0; i < scanCountKeys.Count && i < scanCountValues.Count; i++)
+            {
+                _productScanCount[scanCountKeys[i]] = scanCountValues[i];
+            }
+            
+            _isDictionaryInitialized = true;
         }
         
         /// <summary>
@@ -85,15 +105,8 @@ namespace SmartRetailAR.Data
         /// </summary>
         private void IncrementScanCount(string productId)
         {
-            // Build runtime dictionary if not exists
-            if (_productScanCount == null)
-            {
-                _productScanCount = new Dictionary<string, int>();
-                for (int i = 0; i < scanCountKeys.Count; i++)
-                {
-                    _productScanCount[scanCountKeys[i]] = scanCountValues[i];
-                }
-            }
+            // Ensure dictionary is initialized
+            InitializeDictionary();
             
             if (_productScanCount.ContainsKey(productId))
             {
@@ -113,15 +126,8 @@ namespace SmartRetailAR.Data
         /// </summary>
         public int GetScanCount(string productId)
         {
-            // Build runtime dictionary if not exists
-            if (_productScanCount == null)
-            {
-                _productScanCount = new Dictionary<string, int>();
-                for (int i = 0; i < scanCountKeys.Count; i++)
-                {
-                    _productScanCount[scanCountKeys[i]] = scanCountValues[i];
-                }
-            }
+            // Ensure dictionary is initialized
+            InitializeDictionary();
             
             return _productScanCount.ContainsKey(productId) ? _productScanCount[productId] : 0;
         }
@@ -177,7 +183,9 @@ namespace SmartRetailAR.Data
                 string json = PlayerPrefs.GetString("UserPreferences");
                 try
                 {
-                    return JsonUtility.FromJson<UserPreferences>(json);
+                    UserPreferences prefs = JsonUtility.FromJson<UserPreferences>(json);
+                    prefs.InitializeDictionary(); // Initialize dictionary after deserialization
+                    return prefs;
                 }
                 catch (Exception e)
                 {

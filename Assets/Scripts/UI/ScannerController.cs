@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections.Generic;
 using SmartRetailAR.Utils;
 using SmartRetailAR.Data;
 
@@ -21,11 +22,7 @@ namespace SmartRetailAR.UI
         
         [Header("Test Mode")]
         public bool testMode = true;
-        public string[] testProductIds = new string[] 
-        { 
-            "prod001", "prod002", "prod003", "prod004", "prod005",
-            "prod006", "prod007", "prod008", "prod009", "prod010"
-        };
+        public int testProductCount = 10; // Number of products to use for testing
         
         [Header("Scanner Settings")]
         public float scanCooldown = 1f;
@@ -33,6 +30,7 @@ namespace SmartRetailAR.UI
         private bool _isScanning = false;
         private float _lastScanTime;
         private bool _torchEnabled = false;
+        private List<string> _testProductIds;
         
         private void Start()
         {
@@ -66,7 +64,18 @@ namespace SmartRetailAR.UI
         {
             if (testMode)
             {
-                Debug.Log("Scanner in TEST MODE - using simulated products");
+                // Load test product IDs from database
+                var allProducts = ProductDatabase.Instance.GetAllProducts();
+                _testProductIds = new List<string>();
+                
+                int count = Mathf.Min(testProductCount, allProducts.Count);
+                for (int i = 0; i < count; i++)
+                {
+                    _testProductIds.Add(allProducts[i].id);
+                }
+                
+                Debug.Log($"Scanner in TEST MODE - using {_testProductIds.Count} products from database");
+                
                 if (cameraView != null)
                 {
                     // Display placeholder for test mode
@@ -113,7 +122,7 @@ namespace SmartRetailAR.UI
         /// </summary>
         private void SimulateScan()
         {
-            if (testProductIds == null || testProductIds.Length == 0)
+            if (_testProductIds == null || _testProductIds.Count == 0)
             {
                 UpdateStatusText("Erreur: Aucun produit de test disponible");
                 return;
@@ -123,7 +132,7 @@ namespace SmartRetailAR.UI
             UpdateStatusText("Scan en cours...");
             
             // Pick random test product
-            string productId = testProductIds[Random.Range(0, testProductIds.Length)];
+            string productId = _testProductIds[Random.Range(0, _testProductIds.Count)];
             
             // Simulate scan delay
             StartCoroutine(ProcessScanResult(productId));
