@@ -62,7 +62,7 @@ namespace SmartRetailAR.Data
             
             try
             {
-                Data.ProductDatabase database = JsonUtility.FromJson<Data.ProductDatabase>(jsonFile.text);
+                ProductDatabaseWrapper database = JsonUtility.FromJson<ProductDatabaseWrapper>(jsonFile.text);
                 _productList = database.products ?? new List<ProductData>();
                 
                 _products = new Dictionary<string, ProductData>();

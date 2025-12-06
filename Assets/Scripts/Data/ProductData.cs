@@ -51,7 +51,7 @@ namespace SmartRetailAR.Data
     /// Wrapper for product database JSON deserialization
     /// </summary>
     [Serializable]
-    public class ProductDatabase
+    public class ProductDatabaseWrapper
     {
         public List<ProductData> products;
     }
