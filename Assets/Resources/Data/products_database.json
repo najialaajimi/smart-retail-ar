@@ -1,0 +1,1404 @@
+{
+  "products": [
+    {
+      "productId": "PROD001",
+      "name": "Yaourt Nature Bio",
+      "brand": "Biocoop",
+      "imageUrl": "",
+      "price": 2.50,
+      "nutritionalInfo": {
+        "calories": 65,
+        "proteins": 4.2,
+        "carbohydrates": 5.1,
+        "fats": 3.5,
+        "fiber": 0,
+        "sugar": 4.8,
+        "salt": 0.1
+      },
+      "origin": {
+        "country": "France",
+        "region": "Bretagne",
+        "producer": "Ferme du Val"
+      },
+      "scores": {
+        "healthScore": 85,
+        "ecoScore": 90,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Local", "Éco-responsable"],
+      "alternativeIds": ["PROD002", "PROD003"]
+    },
+    {
+      "productId": "PROD002",
+      "name": "Yaourt aux Fruits",
+      "brand": "Danone",
+      "imageUrl": "",
+      "price": 3.20,
+      "nutritionalInfo": {
+        "calories": 95,
+        "proteins": 3.8,
+        "carbohydrates": 15.2,
+        "fats": 2.5,
+        "fiber": 0.5,
+        "sugar": 13.5,
+        "salt": 0.15
+      },
+      "origin": {
+        "country": "France",
+        "region": "Île-de-France",
+        "producer": "Danone France"
+      },
+      "scores": {
+        "healthScore": 65,
+        "ecoScore": 55,
+        "nutritionGrade": "B"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD001", "PROD003"]
+    },
+    {
+      "productId": "PROD003",
+      "name": "Yaourt Grec",
+      "brand": "Fage",
+      "imageUrl": "",
+      "price": 3.80,
+      "nutritionalInfo": {
+        "calories": 130,
+        "proteins": 10.0,
+        "carbohydrates": 4.0,
+        "fats": 10.0,
+        "fiber": 0,
+        "sugar": 4.0,
+        "salt": 0.1
+      },
+      "origin": {
+        "country": "Grèce",
+        "region": "Attique",
+        "producer": "Fage Dairy"
+      },
+      "scores": {
+        "healthScore": 78,
+        "ecoScore": 50,
+        "nutritionGrade": "B"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD001", "PROD002"]
+    },
+    {
+      "productId": "PROD004",
+      "name": "Pain Complet Bio",
+      "brand": "Le Moulin",
+      "imageUrl": "",
+      "price": 2.90,
+      "nutritionalInfo": {
+        "calories": 250,
+        "proteins": 9.5,
+        "carbohydrates": 45.0,
+        "fats": 3.5,
+        "fiber": 8.0,
+        "sugar": 3.0,
+        "salt": 1.2
+      },
+      "origin": {
+        "country": "France",
+        "region": "Normandie",
+        "producer": "Boulangerie Le Moulin"
+      },
+      "scores": {
+        "healthScore": 88,
+        "ecoScore": 85,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Éco-responsable"],
+      "alternativeIds": ["PROD005", "PROD006"]
+    },
+    {
+      "productId": "PROD005",
+      "name": "Pain Blanc",
+      "brand": "Harry's",
+      "imageUrl": "",
+      "price": 1.50,
+      "nutritionalInfo": {
+        "calories": 265,
+        "proteins": 8.5,
+        "carbohydrates": 49.0,
+        "fats": 3.2,
+        "fiber": 3.5,
+        "sugar": 5.0,
+        "salt": 1.1
+      },
+      "origin": {
+        "country": "France",
+        "region": "Île-de-France",
+        "producer": "Bimbo France"
+      },
+      "scores": {
+        "healthScore": 55,
+        "ecoScore": 45,
+        "nutritionGrade": "C"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD004", "PROD006"]
+    },
+    {
+      "productId": "PROD006",
+      "name": "Pain Céréales",
+      "brand": "Jacquet",
+      "imageUrl": "",
+      "price": 2.30,
+      "nutritionalInfo": {
+        "calories": 260,
+        "proteins": 10.0,
+        "carbohydrates": 43.0,
+        "fats": 4.5,
+        "fiber": 7.5,
+        "sugar": 4.0,
+        "salt": 1.0
+      },
+      "origin": {
+        "country": "France",
+        "region": "Hauts-de-France",
+        "producer": "Jacquet Brossard"
+      },
+      "scores": {
+        "healthScore": 72,
+        "ecoScore": 60,
+        "nutritionGrade": "B"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD004", "PROD005"]
+    },
+    {
+      "productId": "PROD007",
+      "name": "Lait Demi-Écrémé Bio",
+      "brand": "Lactel Bio",
+      "imageUrl": "",
+      "price": 1.80,
+      "nutritionalInfo": {
+        "calories": 49,
+        "proteins": 3.4,
+        "carbohydrates": 4.8,
+        "fats": 1.6,
+        "fiber": 0,
+        "sugar": 4.8,
+        "salt": 0.1
+      },
+      "origin": {
+        "country": "France",
+        "region": "Pays de la Loire",
+        "producer": "Lactalis Bio"
+      },
+      "scores": {
+        "healthScore": 82,
+        "ecoScore": 88,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Local"],
+      "alternativeIds": ["PROD008", "PROD009"]
+    },
+    {
+      "productId": "PROD008",
+      "name": "Lait Entier",
+      "brand": "Candia",
+      "imageUrl": "",
+      "price": 1.20,
+      "nutritionalInfo": {
+        "calories": 64,
+        "proteins": 3.2,
+        "carbohydrates": 4.6,
+        "fats": 3.5,
+        "fiber": 0,
+        "sugar": 4.6,
+        "salt": 0.1
+      },
+      "origin": {
+        "country": "France",
+        "region": "Centre-Val de Loire",
+        "producer": "Sodiaal"
+      },
+      "scores": {
+        "healthScore": 70,
+        "ecoScore": 60,
+        "nutritionGrade": "B"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD007", "PROD009"]
+    },
+    {
+      "productId": "PROD009",
+      "name": "Boisson Végétale Avoine",
+      "brand": "Alpro",
+      "imageUrl": "",
+      "price": 2.50,
+      "nutritionalInfo": {
+        "calories": 45,
+        "proteins": 1.0,
+        "carbohydrates": 6.5,
+        "fats": 1.5,
+        "fiber": 0.8,
+        "sugar": 4.0,
+        "salt": 0.1
+      },
+      "origin": {
+        "country": "Belgique",
+        "region": "Flandre",
+        "producer": "Alpro"
+      },
+      "scores": {
+        "healthScore": 75,
+        "ecoScore": 85,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Végétalien", "Sans lactose", "Éco-responsable"],
+      "alternativeIds": ["PROD007", "PROD008"]
+    },
+    {
+      "productId": "PROD010",
+      "name": "Pâtes Complètes Bio",
+      "brand": "Barilla Bio",
+      "imageUrl": "",
+      "price": 2.10,
+      "nutritionalInfo": {
+        "calories": 348,
+        "proteins": 12.5,
+        "carbohydrates": 67.0,
+        "fats": 2.5,
+        "fiber": 9.0,
+        "sugar": 3.5,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "Italie",
+        "region": "Émilie-Romagne",
+        "producer": "Barilla"
+      },
+      "scores": {
+        "healthScore": 86,
+        "ecoScore": 82,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Végétarien"],
+      "alternativeIds": ["PROD011", "PROD012"]
+    },
+    {
+      "productId": "PROD011",
+      "name": "Pâtes Blanches",
+      "brand": "Panzani",
+      "imageUrl": "",
+      "price": 1.20,
+      "nutritionalInfo": {
+        "calories": 355,
+        "proteins": 12.0,
+        "carbohydrates": 71.0,
+        "fats": 1.5,
+        "fiber": 3.0,
+        "sugar": 3.2,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "France",
+        "region": "Auvergne-Rhône-Alpes",
+        "producer": "Panzani"
+      },
+      "scores": {
+        "healthScore": 65,
+        "ecoScore": 55,
+        "nutritionGrade": "B"
+      },
+      "tags": ["Végétarien"],
+      "alternativeIds": ["PROD010", "PROD012"]
+    },
+    {
+      "productId": "PROD012",
+      "name": "Pâtes Sans Gluten",
+      "brand": "Schär",
+      "imageUrl": "",
+      "price": 3.50,
+      "nutritionalInfo": {
+        "calories": 358,
+        "proteins": 7.0,
+        "carbohydrates": 78.0,
+        "fats": 2.0,
+        "fiber": 3.5,
+        "sugar": 1.0,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "Italie",
+        "region": "Trentin-Haut-Adige",
+        "producer": "Schär"
+      },
+      "scores": {
+        "healthScore": 70,
+        "ecoScore": 60,
+        "nutritionGrade": "B"
+      },
+      "tags": ["Sans gluten", "Végétarien"],
+      "alternativeIds": ["PROD010", "PROD011"]
+    },
+    {
+      "productId": "PROD013",
+      "name": "Œufs Bio Plein Air",
+      "brand": "Bio Village",
+      "imageUrl": "",
+      "price": 3.80,
+      "nutritionalInfo": {
+        "calories": 143,
+        "proteins": 12.5,
+        "carbohydrates": 0.7,
+        "fats": 10.0,
+        "fiber": 0,
+        "sugar": 0.7,
+        "salt": 0.3
+      },
+      "origin": {
+        "country": "France",
+        "region": "Nouvelle-Aquitaine",
+        "producer": "Fermes Bio Village"
+      },
+      "scores": {
+        "healthScore": 90,
+        "ecoScore": 92,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Local", "Éco-responsable"],
+      "alternativeIds": ["PROD014", "PROD015"]
+    },
+    {
+      "productId": "PROD014",
+      "name": "Œufs Élevés en Plein Air",
+      "brand": "Loué",
+      "imageUrl": "",
+      "price": 3.20,
+      "nutritionalInfo": {
+        "calories": 143,
+        "proteins": 12.5,
+        "carbohydrates": 0.7,
+        "fats": 10.0,
+        "fiber": 0,
+        "sugar": 0.7,
+        "salt": 0.3
+      },
+      "origin": {
+        "country": "France",
+        "region": "Pays de la Loire",
+        "producer": "Groupe Loué"
+      },
+      "scores": {
+        "healthScore": 88,
+        "ecoScore": 85,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Local"],
+      "alternativeIds": ["PROD013", "PROD015"]
+    },
+    {
+      "productId": "PROD015",
+      "name": "Œufs Standard",
+      "brand": "Matines",
+      "imageUrl": "",
+      "price": 2.50,
+      "nutritionalInfo": {
+        "calories": 143,
+        "proteins": 12.5,
+        "carbohydrates": 0.7,
+        "fats": 10.0,
+        "fiber": 0,
+        "sugar": 0.7,
+        "salt": 0.3
+      },
+      "origin": {
+        "country": "France",
+        "region": "Bretagne",
+        "producer": "Matines"
+      },
+      "scores": {
+        "healthScore": 85,
+        "ecoScore": 60,
+        "nutritionGrade": "A"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD013", "PROD014"]
+    },
+    {
+      "productId": "PROD016",
+      "name": "Pommes Bio",
+      "brand": "Vergers Bio",
+      "imageUrl": "",
+      "price": 3.50,
+      "nutritionalInfo": {
+        "calories": 52,
+        "proteins": 0.3,
+        "carbohydrates": 14.0,
+        "fats": 0.2,
+        "fiber": 2.4,
+        "sugar": 10.0,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "France",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "producer": "Coopérative des Vergers"
+      },
+      "scores": {
+        "healthScore": 95,
+        "ecoScore": 95,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Local", "Éco-responsable"],
+      "alternativeIds": ["PROD017"]
+    },
+    {
+      "productId": "PROD017",
+      "name": "Pommes Standard",
+      "brand": "Vergers de France",
+      "imageUrl": "",
+      "price": 2.20,
+      "nutritionalInfo": {
+        "calories": 52,
+        "proteins": 0.3,
+        "carbohydrates": 14.0,
+        "fats": 0.2,
+        "fiber": 2.4,
+        "sugar": 10.0,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "France",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "producer": "Vergers de France"
+      },
+      "scores": {
+        "healthScore": 93,
+        "ecoScore": 70,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Local"],
+      "alternativeIds": ["PROD016"]
+    },
+    {
+      "productId": "PROD018",
+      "name": "Tomates Bio",
+      "brand": "Jardin Bio",
+      "imageUrl": "",
+      "price": 4.20,
+      "nutritionalInfo": {
+        "calories": 18,
+        "proteins": 0.9,
+        "carbohydrates": 3.9,
+        "fats": 0.2,
+        "fiber": 1.2,
+        "sugar": 2.6,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "France",
+        "region": "Occitanie",
+        "producer": "Jardin Bio"
+      },
+      "scores": {
+        "healthScore": 97,
+        "ecoScore": 94,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Local", "Éco-responsable"],
+      "alternativeIds": ["PROD019"]
+    },
+    {
+      "productId": "PROD019",
+      "name": "Tomates Standard",
+      "brand": "Saveurs du Soleil",
+      "imageUrl": "",
+      "price": 2.80,
+      "nutritionalInfo": {
+        "calories": 18,
+        "proteins": 0.9,
+        "carbohydrates": 3.9,
+        "fats": 0.2,
+        "fiber": 1.2,
+        "sugar": 2.6,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "Espagne",
+        "region": "Andalousie",
+        "producer": "Sol y Campo"
+      },
+      "scores": {
+        "healthScore": 95,
+        "ecoScore": 60,
+        "nutritionGrade": "A"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD018"]
+    },
+    {
+      "productId": "PROD020",
+      "name": "Riz Complet Bio",
+      "brand": "Taureau Ailé",
+      "imageUrl": "",
+      "price": 3.50,
+      "nutritionalInfo": {
+        "calories": 370,
+        "proteins": 7.5,
+        "carbohydrates": 77.0,
+        "fats": 2.8,
+        "fiber": 3.5,
+        "sugar": 0.8,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "France",
+        "region": "Camargue",
+        "producer": "Riziculteurs de Camargue"
+      },
+      "scores": {
+        "healthScore": 87,
+        "ecoScore": 85,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Local", "Végétarien"],
+      "alternativeIds": ["PROD021", "PROD022"]
+    },
+    {
+      "productId": "PROD021",
+      "name": "Riz Basmati",
+      "brand": "Tilda",
+      "imageUrl": "",
+      "price": 4.50,
+      "nutritionalInfo": {
+        "calories": 360,
+        "proteins": 7.0,
+        "carbohydrates": 79.0,
+        "fats": 1.0,
+        "fiber": 1.5,
+        "sugar": 0.5,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "Inde",
+        "region": "Punjab",
+        "producer": "Tilda"
+      },
+      "scores": {
+        "healthScore": 72,
+        "ecoScore": 50,
+        "nutritionGrade": "B"
+      },
+      "tags": ["Végétarien"],
+      "alternativeIds": ["PROD020", "PROD022"]
+    },
+    {
+      "productId": "PROD022",
+      "name": "Riz Blanc",
+      "brand": "Uncle Ben's",
+      "imageUrl": "",
+      "price": 2.80,
+      "nutritionalInfo": {
+        "calories": 365,
+        "proteins": 6.5,
+        "carbohydrates": 80.0,
+        "fats": 0.7,
+        "fiber": 1.0,
+        "sugar": 0.1,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "Italie",
+        "region": "Piémont",
+        "producer": "Mars Food"
+      },
+      "scores": {
+        "healthScore": 65,
+        "ecoScore": 55,
+        "nutritionGrade": "B"
+      },
+      "tags": ["Végétarien"],
+      "alternativeIds": ["PROD020", "PROD021"]
+    },
+    {
+      "productId": "PROD023",
+      "name": "Fromage Comté Bio",
+      "brand": "Juraflore",
+      "imageUrl": "",
+      "price": 6.50,
+      "nutritionalInfo": {
+        "calories": 415,
+        "proteins": 28.5,
+        "carbohydrates": 0.5,
+        "fats": 34.0,
+        "fiber": 0,
+        "sugar": 0.5,
+        "salt": 0.9
+      },
+      "origin": {
+        "country": "France",
+        "region": "Franche-Comté",
+        "producer": "Juraflore"
+      },
+      "scores": {
+        "healthScore": 68,
+        "ecoScore": 88,
+        "nutritionGrade": "D"
+      },
+      "tags": ["Bio", "Local"],
+      "alternativeIds": ["PROD024", "PROD025"]
+    },
+    {
+      "productId": "PROD024",
+      "name": "Emmental",
+      "brand": "Président",
+      "imageUrl": "",
+      "price": 4.20,
+      "nutritionalInfo": {
+        "calories": 380,
+        "proteins": 27.0,
+        "carbohydrates": 1.5,
+        "fats": 30.0,
+        "fiber": 0,
+        "sugar": 1.5,
+        "salt": 0.7
+      },
+      "origin": {
+        "country": "France",
+        "region": "Pays de la Loire",
+        "producer": "Lactalis"
+      },
+      "scores": {
+        "healthScore": 65,
+        "ecoScore": 60,
+        "nutritionGrade": "D"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD023", "PROD025"]
+    },
+    {
+      "productId": "PROD025",
+      "name": "Mozzarella",
+      "brand": "Galbani",
+      "imageUrl": "",
+      "price": 3.50,
+      "nutritionalInfo": {
+        "calories": 280,
+        "proteins": 18.0,
+        "carbohydrates": 3.0,
+        "fats": 22.0,
+        "fiber": 0,
+        "sugar": 1.0,
+        "salt": 0.6
+      },
+      "origin": {
+        "country": "Italie",
+        "region": "Campanie",
+        "producer": "Galbani"
+      },
+      "scores": {
+        "healthScore": 70,
+        "ecoScore": 55,
+        "nutritionGrade": "C"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD023", "PROD024"]
+    },
+    {
+      "productId": "PROD026",
+      "name": "Poulet Bio",
+      "brand": "Loué Bio",
+      "imageUrl": "",
+      "price": 12.50,
+      "nutritionalInfo": {
+        "calories": 165,
+        "proteins": 31.0,
+        "carbohydrates": 0,
+        "fats": 3.6,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0.1
+      },
+      "origin": {
+        "country": "France",
+        "region": "Pays de la Loire",
+        "producer": "Groupe Loué"
+      },
+      "scores": {
+        "healthScore": 92,
+        "ecoScore": 88,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Local", "Éco-responsable"],
+      "alternativeIds": ["PROD027", "PROD028"]
+    },
+    {
+      "productId": "PROD027",
+      "name": "Poulet Label Rouge",
+      "brand": "Maître CoQ",
+      "imageUrl": "",
+      "price": 9.80,
+      "nutritionalInfo": {
+        "calories": 165,
+        "proteins": 31.0,
+        "carbohydrates": 0,
+        "fats": 3.6,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0.1
+      },
+      "origin": {
+        "country": "France",
+        "region": "Bretagne",
+        "producer": "Maître CoQ"
+      },
+      "scores": {
+        "healthScore": 90,
+        "ecoScore": 75,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Local"],
+      "alternativeIds": ["PROD026", "PROD028"]
+    },
+    {
+      "productId": "PROD028",
+      "name": "Poulet Standard",
+      "brand": "Duc",
+      "imageUrl": "",
+      "price": 6.50,
+      "nutritionalInfo": {
+        "calories": 165,
+        "proteins": 31.0,
+        "carbohydrates": 0,
+        "fats": 3.6,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0.1
+      },
+      "origin": {
+        "country": "France",
+        "region": "Pays de la Loire",
+        "producer": "LDC"
+      },
+      "scores": {
+        "healthScore": 87,
+        "ecoScore": 55,
+        "nutritionGrade": "A"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD026", "PROD027"]
+    },
+    {
+      "productId": "PROD029",
+      "name": "Saumon Bio",
+      "brand": "Aqua Bio",
+      "imageUrl": "",
+      "price": 18.50,
+      "nutritionalInfo": {
+        "calories": 208,
+        "proteins": 20.0,
+        "carbohydrates": 0,
+        "fats": 13.0,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0.1
+      },
+      "origin": {
+        "country": "Norvège",
+        "region": "Fjords de l'Ouest",
+        "producer": "Aqua Bio Norway"
+      },
+      "scores": {
+        "healthScore": 88,
+        "ecoScore": 80,
+        "nutritionGrade": "B"
+      },
+      "tags": ["Bio", "Éco-responsable"],
+      "alternativeIds": ["PROD030"]
+    },
+    {
+      "productId": "PROD030",
+      "name": "Saumon d'Élevage",
+      "brand": "Marine Harvest",
+      "imageUrl": "",
+      "price": 14.50,
+      "nutritionalInfo": {
+        "calories": 208,
+        "proteins": 20.0,
+        "carbohydrates": 0,
+        "fats": 13.0,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0.1
+      },
+      "origin": {
+        "country": "Écosse",
+        "region": "Highlands",
+        "producer": "Mowi"
+      },
+      "scores": {
+        "healthScore": 85,
+        "ecoScore": 60,
+        "nutritionGrade": "B"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD029"]
+    },
+    {
+      "productId": "PROD031",
+      "name": "Bananes Bio Équitables",
+      "brand": "Ethiquable",
+      "imageUrl": "",
+      "price": 2.80,
+      "nutritionalInfo": {
+        "calories": 89,
+        "proteins": 1.1,
+        "carbohydrates": 23.0,
+        "fats": 0.3,
+        "fiber": 2.6,
+        "sugar": 12.0,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "Équateur",
+        "region": "Guayas",
+        "producer": "Coopérative Bio Équateur"
+      },
+      "scores": {
+        "healthScore": 92,
+        "ecoScore": 88,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Éco-responsable"],
+      "alternativeIds": ["PROD032"]
+    },
+    {
+      "productId": "PROD032",
+      "name": "Bananes Standard",
+      "brand": "Chiquita",
+      "imageUrl": "",
+      "price": 1.80,
+      "nutritionalInfo": {
+        "calories": 89,
+        "proteins": 1.1,
+        "carbohydrates": 23.0,
+        "fats": 0.3,
+        "fiber": 2.6,
+        "sugar": 12.0,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "Costa Rica",
+        "region": "Limón",
+        "producer": "Chiquita"
+      },
+      "scores": {
+        "healthScore": 90,
+        "ecoScore": 55,
+        "nutritionGrade": "A"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD031"]
+    },
+    {
+      "productId": "PROD033",
+      "name": "Chocolat Noir Bio 70%",
+      "brand": "Alter Eco",
+      "imageUrl": "",
+      "price": 3.50,
+      "nutritionalInfo": {
+        "calories": 570,
+        "proteins": 8.0,
+        "carbohydrates": 42.0,
+        "fats": 42.0,
+        "fiber": 11.0,
+        "sugar": 30.0,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "Pérou",
+        "region": "Cusco",
+        "producer": "Cooperativa Cacao"
+      },
+      "scores": {
+        "healthScore": 65,
+        "ecoScore": 90,
+        "nutritionGrade": "D"
+      },
+      "tags": ["Bio", "Éco-responsable"],
+      "alternativeIds": ["PROD034", "PROD035"]
+    },
+    {
+      "productId": "PROD034",
+      "name": "Chocolat au Lait",
+      "brand": "Milka",
+      "imageUrl": "",
+      "price": 2.20,
+      "nutritionalInfo": {
+        "calories": 535,
+        "proteins": 7.0,
+        "carbohydrates": 57.0,
+        "fats": 30.0,
+        "fiber": 2.0,
+        "sugar": 56.0,
+        "salt": 0.3
+      },
+      "origin": {
+        "country": "Allemagne",
+        "region": "Bavière",
+        "producer": "Mondelez"
+      },
+      "scores": {
+        "healthScore": 35,
+        "ecoScore": 45,
+        "nutritionGrade": "E"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD033", "PROD035"]
+    },
+    {
+      "productId": "PROD035",
+      "name": "Chocolat Noir 85%",
+      "brand": "Lindt",
+      "imageUrl": "",
+      "price": 3.20,
+      "nutritionalInfo": {
+        "calories": 600,
+        "proteins": 10.0,
+        "carbohydrates": 24.0,
+        "fats": 52.0,
+        "fiber": 16.0,
+        "sugar": 14.0,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "Suisse",
+        "region": "Zurich",
+        "producer": "Lindt & Sprüngli"
+      },
+      "scores": {
+        "healthScore": 72,
+        "ecoScore": 60,
+        "nutritionGrade": "D"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD033", "PROD034"]
+    },
+    {
+      "productId": "PROD036",
+      "name": "Jus d'Orange Bio",
+      "brand": "Jardin Bio",
+      "imageUrl": "",
+      "price": 3.20,
+      "nutritionalInfo": {
+        "calories": 45,
+        "proteins": 0.7,
+        "carbohydrates": 10.0,
+        "fats": 0.1,
+        "fiber": 0.2,
+        "sugar": 9.0,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "Espagne",
+        "region": "Valence",
+        "producer": "Cooperativa Bio Valencia"
+      },
+      "scores": {
+        "healthScore": 78,
+        "ecoScore": 85,
+        "nutritionGrade": "B"
+      },
+      "tags": ["Bio", "Éco-responsable"],
+      "alternativeIds": ["PROD037"]
+    },
+    {
+      "productId": "PROD037",
+      "name": "Jus d'Orange Standard",
+      "brand": "Tropicana",
+      "imageUrl": "",
+      "price": 2.50,
+      "nutritionalInfo": {
+        "calories": 45,
+        "proteins": 0.7,
+        "carbohydrates": 10.0,
+        "fats": 0.1,
+        "fiber": 0.2,
+        "sugar": 9.0,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "Brésil",
+        "region": "São Paulo",
+        "producer": "PepsiCo"
+      },
+      "scores": {
+        "healthScore": 75,
+        "ecoScore": 50,
+        "nutritionGrade": "B"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD036"]
+    },
+    {
+      "productId": "PROD038",
+      "name": "Huile d'Olive Vierge Extra Bio",
+      "brand": "Terra Delyssa",
+      "imageUrl": "",
+      "price": 8.50,
+      "nutritionalInfo": {
+        "calories": 900,
+        "proteins": 0,
+        "carbohydrates": 0,
+        "fats": 100.0,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0
+      },
+      "origin": {
+        "country": "Tunisie",
+        "region": "Sfax",
+        "producer": "Terra Delyssa"
+      },
+      "scores": {
+        "healthScore": 82,
+        "ecoScore": 92,
+        "nutritionGrade": "C"
+      },
+      "tags": ["Bio", "Éco-responsable"],
+      "alternativeIds": ["PROD039", "PROD040"]
+    },
+    {
+      "productId": "PROD039",
+      "name": "Huile d'Olive Vierge",
+      "brand": "Puget",
+      "imageUrl": "",
+      "price": 5.50,
+      "nutritionalInfo": {
+        "calories": 900,
+        "proteins": 0,
+        "carbohydrates": 0,
+        "fats": 100.0,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0
+      },
+      "origin": {
+        "country": "Espagne",
+        "region": "Andalousie",
+        "producer": "Lesieur"
+      },
+      "scores": {
+        "healthScore": 80,
+        "ecoScore": 65,
+        "nutritionGrade": "C"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD038", "PROD040"]
+    },
+    {
+      "productId": "PROD040",
+      "name": "Huile de Tournesol",
+      "brand": "Lesieur",
+      "imageUrl": "",
+      "price": 3.50,
+      "nutritionalInfo": {
+        "calories": 900,
+        "proteins": 0,
+        "carbohydrates": 0,
+        "fats": 100.0,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0
+      },
+      "origin": {
+        "country": "France",
+        "region": "Occitanie",
+        "producer": "Lesieur"
+      },
+      "scores": {
+        "healthScore": 70,
+        "ecoScore": 60,
+        "nutritionGrade": "C"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD038", "PROD039"]
+    },
+    {
+      "productId": "PROD041",
+      "name": "Miel Bio de France",
+      "brand": "Lune de Miel Bio",
+      "imageUrl": "",
+      "price": 7.50,
+      "nutritionalInfo": {
+        "calories": 304,
+        "proteins": 0.3,
+        "carbohydrates": 82.0,
+        "fats": 0,
+        "fiber": 0.2,
+        "sugar": 82.0,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "France",
+        "region": "Provence",
+        "producer": "Apiculteurs Bio de Provence"
+      },
+      "scores": {
+        "healthScore": 60,
+        "ecoScore": 95,
+        "nutritionGrade": "D"
+      },
+      "tags": ["Bio", "Local", "Éco-responsable"],
+      "alternativeIds": ["PROD042"]
+    },
+    {
+      "productId": "PROD042",
+      "name": "Miel Standard",
+      "brand": "Lune de Miel",
+      "imageUrl": "",
+      "price": 4.50,
+      "nutritionalInfo": {
+        "calories": 304,
+        "proteins": 0.3,
+        "carbohydrates": 82.0,
+        "fats": 0,
+        "fiber": 0.2,
+        "sugar": 82.0,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "Espagne",
+        "region": "Castille",
+        "producer": "Michaud Apiculteurs"
+      },
+      "scores": {
+        "healthScore": 58,
+        "ecoScore": 55,
+        "nutritionGrade": "D"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD041"]
+    },
+    {
+      "productId": "PROD043",
+      "name": "Café Bio Équitable",
+      "brand": "Malongo",
+      "imageUrl": "",
+      "price": 5.80,
+      "nutritionalInfo": {
+        "calories": 2,
+        "proteins": 0.1,
+        "carbohydrates": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0
+      },
+      "origin": {
+        "country": "Éthiopie",
+        "region": "Sidamo",
+        "producer": "Coopérative Sidamo"
+      },
+      "scores": {
+        "healthScore": 85,
+        "ecoScore": 92,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Éco-responsable"],
+      "alternativeIds": ["PROD044", "PROD045"]
+    },
+    {
+      "productId": "PROD044",
+      "name": "Café Arabica",
+      "brand": "Carte Noire",
+      "imageUrl": "",
+      "price": 4.20,
+      "nutritionalInfo": {
+        "calories": 2,
+        "proteins": 0.1,
+        "carbohydrates": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0
+      },
+      "origin": {
+        "country": "Colombie",
+        "region": "Antioquia",
+        "producer": "JDE"
+      },
+      "scores": {
+        "healthScore": 82,
+        "ecoScore": 60,
+        "nutritionGrade": "A"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD043", "PROD045"]
+    },
+    {
+      "productId": "PROD045",
+      "name": "Café Robusta",
+      "brand": "Grand Mère",
+      "imageUrl": "",
+      "price": 3.50,
+      "nutritionalInfo": {
+        "calories": 2,
+        "proteins": 0.1,
+        "carbohydrates": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0
+      },
+      "origin": {
+        "country": "Vietnam",
+        "region": "Dak Lak",
+        "producer": "JDE"
+      },
+      "scores": {
+        "healthScore": 80,
+        "ecoScore": 45,
+        "nutritionGrade": "A"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD043", "PROD044"]
+    },
+    {
+      "productId": "PROD046",
+      "name": "Céréales Muesli Bio",
+      "brand": "Favrichon",
+      "imageUrl": "",
+      "price": 4.50,
+      "nutritionalInfo": {
+        "calories": 385,
+        "proteins": 10.0,
+        "carbohydrates": 65.0,
+        "fats": 8.0,
+        "fiber": 8.0,
+        "sugar": 18.0,
+        "salt": 0.02
+      },
+      "origin": {
+        "country": "France",
+        "region": "Drôme",
+        "producer": "Favrichon"
+      },
+      "scores": {
+        "healthScore": 80,
+        "ecoScore": 88,
+        "nutritionGrade": "B"
+      },
+      "tags": ["Bio", "Végétarien", "Éco-responsable"],
+      "alternativeIds": ["PROD047", "PROD048"]
+    },
+    {
+      "productId": "PROD047",
+      "name": "Céréales Corn Flakes",
+      "brand": "Kellogg's",
+      "imageUrl": "",
+      "price": 3.20,
+      "nutritionalInfo": {
+        "calories": 375,
+        "proteins": 7.0,
+        "carbohydrates": 84.0,
+        "fats": 0.9,
+        "fiber": 3.0,
+        "sugar": 8.0,
+        "salt": 1.5
+      },
+      "origin": {
+        "country": "Allemagne",
+        "region": "Brême",
+        "producer": "Kellogg's"
+      },
+      "scores": {
+        "healthScore": 55,
+        "ecoScore": 50,
+        "nutritionGrade": "C"
+      },
+      "tags": ["Végétarien"],
+      "alternativeIds": ["PROD046", "PROD048"]
+    },
+    {
+      "productId": "PROD048",
+      "name": "Flocons d'Avoine Bio",
+      "brand": "Quaker",
+      "imageUrl": "",
+      "price": 3.80,
+      "nutritionalInfo": {
+        "calories": 370,
+        "proteins": 13.0,
+        "carbohydrates": 58.0,
+        "fats": 7.0,
+        "fiber": 10.0,
+        "sugar": 1.0,
+        "salt": 0.01
+      },
+      "origin": {
+        "country": "France",
+        "region": "Bretagne",
+        "producer": "PepsiCo"
+      },
+      "scores": {
+        "healthScore": 90,
+        "ecoScore": 82,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Végétarien"],
+      "alternativeIds": ["PROD046", "PROD047"]
+    },
+    {
+      "productId": "PROD049",
+      "name": "Thé Vert Bio",
+      "brand": "Kusmi Tea",
+      "imageUrl": "",
+      "price": 12.50,
+      "nutritionalInfo": {
+        "calories": 1,
+        "proteins": 0,
+        "carbohydrates": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0
+      },
+      "origin": {
+        "country": "Chine",
+        "region": "Zhejiang",
+        "producer": "Kusmi Tea"
+      },
+      "scores": {
+        "healthScore": 95,
+        "ecoScore": 88,
+        "nutritionGrade": "A"
+      },
+      "tags": ["Bio", "Éco-responsable"],
+      "alternativeIds": ["PROD050"]
+    },
+    {
+      "productId": "PROD050",
+      "name": "Thé Noir",
+      "brand": "Lipton",
+      "imageUrl": "",
+      "price": 3.50,
+      "nutritionalInfo": {
+        "calories": 1,
+        "proteins": 0,
+        "carbohydrates": 0,
+        "fats": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "salt": 0
+      },
+      "origin": {
+        "country": "Inde",
+        "region": "Assam",
+        "producer": "Unilever"
+      },
+      "scores": {
+        "healthScore": 92,
+        "ecoScore": 60,
+        "nutritionGrade": "A"
+      },
+      "tags": [],
+      "alternativeIds": ["PROD049"]
+    }
+  ]
+}
