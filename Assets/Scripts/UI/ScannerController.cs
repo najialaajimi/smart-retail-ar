@@ -64,17 +64,25 @@ namespace SmartRetailAR.UI
         {
             if (testMode)
             {
-                // Load test product IDs from database
+                // Load test product IDs from database with diverse selection
                 var allProducts = ProductDatabase.Instance.GetAllProducts();
                 _testProductIds = new List<string>();
                 
                 int count = Mathf.Min(testProductCount, allProducts.Count);
-                for (int i = 0; i < count; i++)
+                
+                // Use random sampling for better test coverage across product categories
+                var usedIndices = new HashSet<int>();
+                while (_testProductIds.Count < count && usedIndices.Count < allProducts.Count)
                 {
-                    _testProductIds.Add(allProducts[i].id);
+                    int randomIndex = Random.Range(0, allProducts.Count);
+                    if (!usedIndices.Contains(randomIndex))
+                    {
+                        usedIndices.Add(randomIndex);
+                        _testProductIds.Add(allProducts[randomIndex].id);
+                    }
                 }
                 
-                Debug.Log($"Scanner in TEST MODE - using {_testProductIds.Count} products from database");
+                Debug.Log($"Scanner in TEST MODE - using {_testProductIds.Count} randomly selected products from database");
                 
                 if (cameraView != null)
                 {

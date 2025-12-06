@@ -184,7 +184,10 @@ namespace SmartRetailAR.Data
                 try
                 {
                     UserPreferences prefs = JsonUtility.FromJson<UserPreferences>(json);
-                    prefs.InitializeDictionary(); // Initialize dictionary after deserialization
+                    // Dictionary initialization required after deserialization because:
+                    // JsonUtility doesn't serialize Dictionaries, so we store data as parallel lists.
+                    // After loading, we rebuild the dictionary from those lists for O(1) runtime access.
+                    prefs.InitializeDictionary();
                     return prefs;
                 }
                 catch (Exception e)
