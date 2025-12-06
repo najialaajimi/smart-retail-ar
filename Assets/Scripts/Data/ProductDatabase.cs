@@ -28,6 +28,7 @@ namespace SmartRetailAR.Data
         
         private Dictionary<string, ProductData> _products;
         private List<ProductData> _productList;
+        private bool _isLoaded = false;
         
         private void Awake()
         {
@@ -47,7 +48,7 @@ namespace SmartRetailAR.Data
         /// </summary>
         private void LoadDatabase()
         {
-            if (_products != null) return;
+            if (_isLoaded) return;
             
             TextAsset jsonFile = Resources.Load<TextAsset>("Data/products_database");
             if (jsonFile == null)
@@ -55,6 +56,7 @@ namespace SmartRetailAR.Data
                 Debug.LogError("Could not load products_database.json from Resources/Data/");
                 _products = new Dictionary<string, ProductData>();
                 _productList = new List<ProductData>();
+                _isLoaded = true;
                 return;
             }
             
@@ -72,6 +74,7 @@ namespace SmartRetailAR.Data
                     }
                 }
                 
+                _isLoaded = true;
                 Debug.Log($"Loaded {_products.Count} products from database");
             }
             catch (System.Exception e)
@@ -79,6 +82,7 @@ namespace SmartRetailAR.Data
                 Debug.LogError($"Error parsing products_database.json: {e.Message}");
                 _products = new Dictionary<string, ProductData>();
                 _productList = new List<ProductData>();
+                _isLoaded = true;
             }
         }
         
@@ -87,7 +91,7 @@ namespace SmartRetailAR.Data
         /// </summary>
         public ProductData GetProduct(string productId)
         {
-            if (_products == null) LoadDatabase();
+            if (!_isLoaded) LoadDatabase();
             
             if (_products.TryGetValue(productId, out ProductData product))
             {
@@ -103,7 +107,7 @@ namespace SmartRetailAR.Data
         /// </summary>
         public List<ProductData> GetAllProducts()
         {
-            if (_productList == null) LoadDatabase();
+            if (!_isLoaded) LoadDatabase();
             return new List<ProductData>(_productList);
         }
         
@@ -112,7 +116,7 @@ namespace SmartRetailAR.Data
         /// </summary>
         public List<ProductData> GetProductsByCategory(string category)
         {
-            if (_productList == null) LoadDatabase();
+            if (!_isLoaded) LoadDatabase();
             
             return _productList
                 .Where(p => p.categories != null && p.categories.Contains(category))
@@ -124,7 +128,7 @@ namespace SmartRetailAR.Data
         /// </summary>
         public List<ProductData> GetProductsByTag(string tag)
         {
-            if (_productList == null) LoadDatabase();
+            if (!_isLoaded) LoadDatabase();
             
             return _productList
                 .Where(p => p.tags != null && p.tags.Contains(tag))
@@ -140,7 +144,7 @@ namespace SmartRetailAR.Data
             float? maxPrice = null,
             float? minHealthScore = null)
         {
-            if (_productList == null) LoadDatabase();
+            if (!_isLoaded) LoadDatabase();
             
             var filtered = _productList.AsEnumerable();
             
