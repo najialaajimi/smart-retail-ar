@@ -175,6 +175,9 @@ namespace SmartRetailAR.Data
         
         /// <summary>
         /// Load preferences from PlayerPrefs
+        /// Dictionary initialization required after deserialization because JsonUtility doesn't
+        /// serialize Dictionaries. We store data as parallel lists and rebuild the dictionary
+        /// from those lists for O(1) runtime access.
         /// </summary>
         public static UserPreferences Load()
         {
@@ -184,9 +187,6 @@ namespace SmartRetailAR.Data
                 try
                 {
                     UserPreferences prefs = JsonUtility.FromJson<UserPreferences>(json);
-                    // Dictionary initialization required after deserialization because:
-                    // JsonUtility doesn't serialize Dictionaries, so we store data as parallel lists.
-                    // After loading, we rebuild the dictionary from those lists for O(1) runtime access.
                     prefs.InitializeDictionary();
                     return prefs;
                 }

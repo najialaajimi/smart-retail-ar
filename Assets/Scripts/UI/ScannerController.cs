@@ -70,17 +70,12 @@ namespace SmartRetailAR.UI
                 
                 int count = Mathf.Min(testProductCount, allProducts.Count);
                 
-                // Use random sampling for better test coverage across product categories
-                var usedIndices = new HashSet<int>();
-                while (_testProductIds.Count < count && usedIndices.Count < allProducts.Count)
-                {
-                    int randomIndex = Random.Range(0, allProducts.Count);
-                    if (!usedIndices.Contains(randomIndex))
-                    {
-                        usedIndices.Add(randomIndex);
-                        _testProductIds.Add(allProducts[randomIndex].id);
-                    }
-                }
+                // Use efficient random sampling with OrderBy for better performance
+                _testProductIds = allProducts
+                    .OrderBy(x => Random.value)
+                    .Take(count)
+                    .Select(p => p.id)
+                    .ToList();
                 
                 Debug.Log($"Scanner in TEST MODE - using {_testProductIds.Count} randomly selected products from database");
                 
