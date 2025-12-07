@@ -1,0 +1,334 @@
+{
+  "products": [
+    {
+      "id": "PROD001",
+      "name": "Yaourt Bio Nature",
+      "category": "Produits Laitiers",
+      "brand": "BioFarm",
+      "price": 2.99,
+      "description": "Yaourt bio nature au lait entier",
+      "nutritionalInfo": {
+        "calories": 65,
+        "protein": 3.5,
+        "carbs": 4.5,
+        "fat": 3.2,
+        "fiber": 0,
+        "sugar": 4.5,
+        "sodium": 50,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.2,
+        "packaging": "Recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Lait"],
+      "imageUrl": "yaourt_bio.png",
+      "barcode": "3250391234567"
+    },
+    {
+      "id": "PROD002",
+      "name": "Pain Complet Bio",
+      "category": "Boulangerie",
+      "brand": "Le Fournil Bio",
+      "price": 3.50,
+      "description": "Pain complet bio aux céréales",
+      "nutritionalInfo": {
+        "calories": 247,
+        "protein": 9.2,
+        "carbs": 45.0,
+        "fat": 3.5,
+        "fiber": 6.5,
+        "sugar": 2.0,
+        "sodium": 400,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.8,
+        "packaging": "Papier recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Gluten"],
+      "imageUrl": "pain_complet.png",
+      "barcode": "3250391234568"
+    },
+    {
+      "id": "PROD003",
+      "name": "Jus d'Orange Pressé",
+      "category": "Boissons",
+      "brand": "FruitVital",
+      "price": 4.20,
+      "description": "Jus d'orange 100% pur jus sans sucre ajouté",
+      "nutritionalInfo": {
+        "calories": 45,
+        "protein": 0.7,
+        "carbs": 10.0,
+        "fat": 0.2,
+        "fiber": 0.2,
+        "sugar": 9.0,
+        "sodium": 2,
+        "nutriScore": "B"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.5,
+        "packaging": "Verre recyclable",
+        "origin": "Espagne",
+        "organic": false,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": [],
+      "imageUrl": "jus_orange.png",
+      "barcode": "3250391234569"
+    },
+    {
+      "id": "PROD004",
+      "name": "Pâtes Complètes Bio",
+      "category": "Épicerie",
+      "brand": "PastaNatura",
+      "price": 2.80,
+      "description": "Pâtes complètes biologiques au blé dur",
+      "nutritionalInfo": {
+        "calories": 348,
+        "protein": 12.5,
+        "carbs": 67.0,
+        "fat": 2.5,
+        "fiber": 8.0,
+        "sugar": 3.5,
+        "sodium": 10,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.0,
+        "packaging": "Carton recyclable",
+        "origin": "Italie",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": ["Gluten"],
+      "imageUrl": "pates_completes.png",
+      "barcode": "3250391234570"
+    },
+    {
+      "id": "PROD005",
+      "name": "Fromage Comté AOP",
+      "category": "Produits Laitiers",
+      "brand": "Fromagerie du Jura",
+      "price": 18.90,
+      "description": "Fromage Comté AOP affiné 18 mois",
+      "nutritionalInfo": {
+        "calories": 400,
+        "protein": 28.0,
+        "carbs": 0.5,
+        "fat": 32.0,
+        "fiber": 0,
+        "sugar": 0.5,
+        "sodium": 700,
+        "nutriScore": "D"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 5.5,
+        "packaging": "Papier",
+        "origin": "France",
+        "organic": false,
+        "ecoScore": "C"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "B"
+      },
+      "allergens": ["Lait"],
+      "imageUrl": "comte.png",
+      "barcode": "3250391234571"
+    },
+    {
+      "id": "PROD006",
+      "name": "Chocolat Noir 85%",
+      "category": "Confiserie",
+      "brand": "CocoaBio",
+      "price": 3.50,
+      "description": "Chocolat noir bio 85% de cacao",
+      "nutritionalInfo": {
+        "calories": 580,
+        "protein": 9.5,
+        "carbs": 20.0,
+        "fat": 49.0,
+        "fiber": 11.0,
+        "sugar": 15.0,
+        "sodium": 10,
+        "nutriScore": "D"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 2.8,
+        "packaging": "Papier et aluminium recyclables",
+        "origin": "Équateur",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Traces de lait", "Traces de fruits à coque"],
+      "imageUrl": "chocolat_noir.png",
+      "barcode": "3250391234572"
+    },
+    {
+      "id": "PROD007",
+      "name": "Riz Basmati Bio",
+      "category": "Épicerie",
+      "brand": "RiceWorld",
+      "price": 5.50,
+      "description": "Riz basmati bio importé d'Inde",
+      "nutritionalInfo": {
+        "calories": 350,
+        "protein": 7.5,
+        "carbs": 78.0,
+        "fat": 0.8,
+        "fiber": 1.2,
+        "sugar": 0,
+        "sodium": 5,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 2.5,
+        "packaging": "Plastique recyclable",
+        "origin": "Inde",
+        "organic": true,
+        "ecoScore": "C"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": [],
+      "imageUrl": "riz_basmati.png",
+      "barcode": "3250391234573"
+    },
+    {
+      "id": "PROD008",
+      "name": "Tomates Cerises Bio",
+      "category": "Fruits et Légumes",
+      "brand": "TerroirVert",
+      "price": 4.00,
+      "description": "Tomates cerises biologiques de France",
+      "nutritionalInfo": {
+        "calories": 18,
+        "protein": 0.9,
+        "carbs": 3.9,
+        "fat": 0.2,
+        "fiber": 1.2,
+        "sugar": 2.6,
+        "sodium": 5,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.3,
+        "packaging": "Barquette recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "tomates_cerises.png",
+      "barcode": "3250391234574"
+    },
+    {
+      "id": "PROD009",
+      "name": "Huile d'Olive Extra Vierge",
+      "category": "Épicerie",
+      "brand": "MediterraOil",
+      "price": 12.90,
+      "description": "Huile d'olive extra vierge première pression à froid",
+      "nutritionalInfo": {
+        "calories": 884,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 100.0,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 0,
+        "nutriScore": "C"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.8,
+        "packaging": "Verre recyclable",
+        "origin": "Grèce",
+        "organic": false,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": [],
+      "imageUrl": "huile_olive.png",
+      "barcode": "3250391234575"
+    },
+    {
+      "id": "PROD010",
+      "name": "Lentilles Vertes Bio",
+      "category": "Épicerie",
+      "brand": "LegumesBio",
+      "price": 3.20,
+      "description": "Lentilles vertes biologiques du Puy",
+      "nutritionalInfo": {
+        "calories": 352,
+        "protein": 25.0,
+        "carbs": 60.0,
+        "fat": 1.0,
+        "fiber": 10.7,
+        "sugar": 2.0,
+        "sodium": 6,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.9,
+        "packaging": "Carton recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "lentilles.png",
+      "barcode": "3250391234576"
+    }
+  ]
+}
