@@ -257,9 +257,8 @@ namespace SmartRetailAR.AR
                 canvasGroup = overlay.AddComponent<CanvasGroup>();
             }
 
-            LeanTween.cancel(overlay);
-            canvasGroup.alpha = 0;
-            LeanTween.alphaCanvas(canvasGroup, 1f, fadeInDuration).setEaseOutCubic();
+            StopCoroutine(nameof(FadeCanvasGroup));
+            StartCoroutine(FadeCanvasGroup(canvasGroup, 0f, 1f, fadeInDuration, null));
         }
 
         /// <summary>
@@ -273,10 +272,33 @@ namespace SmartRetailAR.AR
                 canvasGroup = overlay.AddComponent<CanvasGroup>();
             }
 
-            LeanTween.cancel(overlay);
-            LeanTween.alphaCanvas(canvasGroup, 0f, fadeOutDuration)
-                .setEaseInCubic()
-                .setOnComplete(() => onComplete?.Invoke());
+            StartCoroutine(FadeCanvasGroup(canvasGroup, canvasGroup.alpha, 0f, fadeOutDuration, onComplete));
+        }
+
+        /// <summary>
+        /// Coroutine for fading canvas group
+        /// </summary>
+        private System.Collections.IEnumerator FadeCanvasGroup(CanvasGroup canvasGroup, float startAlpha, float endAlpha, float duration, System.Action onComplete)
+        {
+            float elapsed = 0f;
+            canvasGroup.alpha = startAlpha;
+
+            while (elapsed < duration)
+            {
+                elapsed += Time.deltaTime;
+                float t = Mathf.Clamp01(elapsed / duration);
+                
+                // Ease out cubic for fade in, ease in cubic for fade out
+                float easedT = endAlpha > startAlpha 
+                    ? 1f - Mathf.Pow(1f - t, 3f) // Ease out cubic
+                    : Mathf.Pow(t, 3f); // Ease in cubic
+                
+                canvasGroup.alpha = Mathf.Lerp(startAlpha, endAlpha, easedT);
+                yield return null;
+            }
+
+            canvasGroup.alpha = endAlpha;
+            onComplete?.Invoke();
         }
 
         /// <summary>
