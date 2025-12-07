@@ -7,12 +7,10 @@ namespace SmartRetailAR.Utils
     /// <summary>
     /// Utility script to automatically setup UI elements in scenes
     /// Use this to quickly create basic UI structure for testing
+    /// Right-click on this script in Inspector and use Context Menu options
     /// </summary>
     public class SetupUI : MonoBehaviour
     {
-        [Header("UI Setup Utility")]
-        [Tooltip("Run this from the Unity Editor to automatically create UI elements")]
-        
         /// <summary>
         /// Setup complete UI for Home Scene
         /// Right-click on this script in Inspector and select "Setup Home Scene UI"
