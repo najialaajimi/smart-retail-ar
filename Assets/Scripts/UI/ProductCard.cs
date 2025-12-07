@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using SmartRetailAR.Data;
 using SmartRetailAR.Utils;
 
@@ -12,12 +13,12 @@ namespace SmartRetailAR.UI
     public class ProductCard : MonoBehaviour
     {
         [Header("UI References")]
-        public Text productNameText;
-        public Text brandText;
-        public Text priceText;
+        public TextMeshProUGUI productNameText;
+        public TextMeshProUGUI brandText;
+        public TextMeshProUGUI priceText;
         public RawImage productImage;
-        public Text healthScoreText;
-        public Text ecoScoreText;
+        public TextMeshProUGUI healthScoreText;
+        public TextMeshProUGUI ecoScoreText;
         public Button selectButton;
         
         [Header("Score Indicators")]

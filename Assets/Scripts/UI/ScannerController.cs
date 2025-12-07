@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using System.Collections.Generic;
 using System.Linq;
 using SmartRetailAR.Utils;
@@ -17,7 +18,7 @@ namespace SmartRetailAR.UI
         public Button scanButton;
         public Button torchButton;
         public Button backButton;
-        public Text statusText;
+        public TextMeshProUGUI statusText;
         public RawImage cameraView;
         public GameObject scanOverlay;
         

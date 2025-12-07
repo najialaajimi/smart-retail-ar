@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using SmartRetailAR.Utils;
 using SmartRetailAR.Data;
 
@@ -12,24 +13,24 @@ namespace SmartRetailAR.UI
     public class ProductInfoController : MonoBehaviour
     {
         [Header("UI References")]
-        public Text productNameText;
-        public Text brandText;
-        public Text descriptionText;
-        public Text originText;
-        public Text priceText;
+        public TextMeshProUGUI productNameText;
+        public TextMeshProUGUI brandText;
+        public TextMeshProUGUI descriptionText;
+        public TextMeshProUGUI originText;
+        public TextMeshProUGUI priceText;
         public RawImage productImage;
         
         [Header("Nutritional Info")]
-        public Text caloriesText;
-        public Text proteinsText;
-        public Text carbohydratesText;
-        public Text fatsText;
+        public TextMeshProUGUI caloriesText;
+        public TextMeshProUGUI proteinsText;
+        public TextMeshProUGUI carbohydratesText;
+        public TextMeshProUGUI fatsText;
         
         [Header("Scores")]
         public Slider healthScoreSlider;
-        public Text healthScoreText;
+        public TextMeshProUGUI healthScoreText;
         public Slider ecoScoreSlider;
-        public Text ecoScoreText;
+        public TextMeshProUGUI ecoScoreText;
         
         [Header("Buttons")]
         public Button alternativesButton;

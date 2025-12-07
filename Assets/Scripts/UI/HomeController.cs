@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using SmartRetailAR.Utils;
 
 namespace SmartRetailAR.UI
@@ -13,7 +14,7 @@ namespace SmartRetailAR.UI
         [Header("UI References")]
         public Button scanButton;
         public Button profileButton;
-        public Text welcomeText;
+        public TextMeshProUGUI welcomeText;
         
         [Header("Animation Settings")]
         public float fadeInDuration = 1f;

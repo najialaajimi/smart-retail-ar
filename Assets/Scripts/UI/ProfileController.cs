@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using System.Collections.Generic;
 using SmartRetailAR.Utils;
 using SmartRetailAR.Data;
@@ -13,8 +14,8 @@ namespace SmartRetailAR.UI
     public class ProfileController : MonoBehaviour
     {
         [Header("UI References")]
-        public Text userNameText;
-        public InputField userNameInput;
+        public TextMeshProUGUI userNameText;
+        public TMP_InputField userNameInput;
         public Button saveButton;
         public Button backButton;
         
@@ -31,7 +32,7 @@ namespace SmartRetailAR.UI
         [Header("History")]
         public Transform historyContainer;
         public GameObject historyItemPrefab;
-        public Text totalScansText;
+        public TextMeshProUGUI totalScansText;
         
         private UserPreferences _preferences;
         private List<GameObject> _historyItems = new List<GameObject>();
