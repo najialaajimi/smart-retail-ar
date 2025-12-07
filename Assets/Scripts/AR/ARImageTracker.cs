@@ -147,8 +147,11 @@ namespace SmartRetailAR.AR
             // Check if it contains underscore separator
             if (imageName.Contains("_"))
             {
-                string[] parts = imageName.Split('_');
-                return parts[parts.Length - 1]; // Return last part
+                string[] parts = imageName.Split(new char[] { '_' }, System.StringSplitOptions.RemoveEmptyEntries);
+                if (parts.Length > 0)
+                {
+                    return parts[parts.Length - 1]; // Return last part
+                }
             }
 
             // If no underscore, assume the entire name is the product ID

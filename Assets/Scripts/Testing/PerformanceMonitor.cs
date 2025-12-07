@@ -106,8 +106,11 @@ namespace SmartRetailAR.Testing
                 peakMemoryMB = currentMemoryMB;
             }
 
-            // Track with analytics
-            AnalyticsManager.Instance.TrackARPerformance(currentFPS, deltaTime * 1000f);
+            // Track with analytics if available
+            if (AnalyticsManager.Instance != null)
+            {
+                AnalyticsManager.Instance.TrackARPerformance(currentFPS, deltaTime * 1000f);
+            }
 
             // Check performance thresholds
             CheckPerformanceThresholds();

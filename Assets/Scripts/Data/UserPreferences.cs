@@ -134,7 +134,7 @@ namespace SmartRetailAR.Data
             }
 
             // Check organic preference
-            if (organic && !product.ecologicalInfo.organic)
+            if (organic && (product.ecologicalInfo == null || !product.ecologicalInfo.organic))
                 return false;
 
             // Additional dietary checks can be added here
