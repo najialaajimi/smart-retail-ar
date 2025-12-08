@@ -1,0 +1,1654 @@
+{
+  "products": [
+    {
+      "id": "PROD001",
+      "name": "Yaourt Bio Nature",
+      "category": "Produits Laitiers",
+      "brand": "BioFarm",
+      "price": 2.99,
+      "description": "Yaourt bio nature au lait entier",
+      "nutritionalInfo": {
+        "calories": 65,
+        "protein": 3.5,
+        "carbs": 4.5,
+        "fat": 3.2,
+        "fiber": 0,
+        "sugar": 4.5,
+        "sodium": 50,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.2,
+        "packaging": "Recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Lait"],
+      "imageUrl": "yaourt_bio.png",
+      "barcode": "3250391234567"
+    },
+    {
+      "id": "PROD002",
+      "name": "Pain Complet Bio",
+      "category": "Boulangerie",
+      "brand": "Le Fournil Bio",
+      "price": 3.50,
+      "description": "Pain complet bio aux céréales",
+      "nutritionalInfo": {
+        "calories": 247,
+        "protein": 9.2,
+        "carbs": 45.0,
+        "fat": 3.5,
+        "fiber": 6.5,
+        "sugar": 2.0,
+        "sodium": 400,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.8,
+        "packaging": "Papier recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Gluten"],
+      "imageUrl": "pain_complet.png",
+      "barcode": "3250391234568"
+    },
+    {
+      "id": "PROD003",
+      "name": "Jus d'Orange Pressé",
+      "category": "Boissons",
+      "brand": "FruitVital",
+      "price": 4.20,
+      "description": "Jus d'orange 100% pur jus sans sucre ajouté",
+      "nutritionalInfo": {
+        "calories": 45,
+        "protein": 0.7,
+        "carbs": 10.0,
+        "fat": 0.2,
+        "fiber": 0.2,
+        "sugar": 9.0,
+        "sodium": 2,
+        "nutriScore": "B"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.5,
+        "packaging": "Verre recyclable",
+        "origin": "Espagne",
+        "organic": false,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": [],
+      "imageUrl": "jus_orange.png",
+      "barcode": "3250391234569"
+    },
+    {
+      "id": "PROD004",
+      "name": "Pâtes Complètes Bio",
+      "category": "Épicerie",
+      "brand": "PastaNatura",
+      "price": 2.80,
+      "description": "Pâtes complètes biologiques au blé dur",
+      "nutritionalInfo": {
+        "calories": 348,
+        "protein": 12.5,
+        "carbs": 67.0,
+        "fat": 2.5,
+        "fiber": 8.0,
+        "sugar": 3.5,
+        "sodium": 10,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.0,
+        "packaging": "Carton recyclable",
+        "origin": "Italie",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": ["Gluten"],
+      "imageUrl": "pates_completes.png",
+      "barcode": "3250391234570"
+    },
+    {
+      "id": "PROD005",
+      "name": "Fromage Comté AOP",
+      "category": "Produits Laitiers",
+      "brand": "Fromagerie du Jura",
+      "price": 18.90,
+      "description": "Fromage Comté AOP affiné 18 mois",
+      "nutritionalInfo": {
+        "calories": 400,
+        "protein": 28.0,
+        "carbs": 0.5,
+        "fat": 32.0,
+        "fiber": 0,
+        "sugar": 0.5,
+        "sodium": 700,
+        "nutriScore": "D"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 5.5,
+        "packaging": "Papier",
+        "origin": "France",
+        "organic": false,
+        "ecoScore": "C"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "B"
+      },
+      "allergens": ["Lait"],
+      "imageUrl": "comte.png",
+      "barcode": "3250391234571"
+    },
+    {
+      "id": "PROD006",
+      "name": "Chocolat Noir 85%",
+      "category": "Confiserie",
+      "brand": "CocoaBio",
+      "price": 3.50,
+      "description": "Chocolat noir bio 85% de cacao",
+      "nutritionalInfo": {
+        "calories": 580,
+        "protein": 9.5,
+        "carbs": 20.0,
+        "fat": 49.0,
+        "fiber": 11.0,
+        "sugar": 15.0,
+        "sodium": 10,
+        "nutriScore": "D"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 2.8,
+        "packaging": "Papier et aluminium recyclables",
+        "origin": "Équateur",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Traces de lait", "Traces de fruits à coque"],
+      "imageUrl": "chocolat_noir.png",
+      "barcode": "3250391234572"
+    },
+    {
+      "id": "PROD007",
+      "name": "Riz Basmati Bio",
+      "category": "Épicerie",
+      "brand": "RiceWorld",
+      "price": 5.50,
+      "description": "Riz basmati bio importé d'Inde",
+      "nutritionalInfo": {
+        "calories": 350,
+        "protein": 7.5,
+        "carbs": 78.0,
+        "fat": 0.8,
+        "fiber": 1.2,
+        "sugar": 0,
+        "sodium": 5,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 2.5,
+        "packaging": "Plastique recyclable",
+        "origin": "Inde",
+        "organic": true,
+        "ecoScore": "C"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": [],
+      "imageUrl": "riz_basmati.png",
+      "barcode": "3250391234573"
+    },
+    {
+      "id": "PROD008",
+      "name": "Tomates Cerises Bio",
+      "category": "Fruits et Légumes",
+      "brand": "TerroirVert",
+      "price": 4.00,
+      "description": "Tomates cerises biologiques de France",
+      "nutritionalInfo": {
+        "calories": 18,
+        "protein": 0.9,
+        "carbs": 3.9,
+        "fat": 0.2,
+        "fiber": 1.2,
+        "sugar": 2.6,
+        "sodium": 5,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.3,
+        "packaging": "Barquette recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "tomates_cerises.png",
+      "barcode": "3250391234574"
+    },
+    {
+      "id": "PROD009",
+      "name": "Huile d'Olive Extra Vierge",
+      "category": "Épicerie",
+      "brand": "MediterraOil",
+      "price": 12.90,
+      "description": "Huile d'olive extra vierge première pression à froid",
+      "nutritionalInfo": {
+        "calories": 884,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 100.0,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 0,
+        "nutriScore": "C"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.8,
+        "packaging": "Verre recyclable",
+        "origin": "Grèce",
+        "organic": false,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": [],
+      "imageUrl": "huile_olive.png",
+      "barcode": "3250391234575"
+    },
+    {
+      "id": "PROD010",
+      "name": "Lentilles Vertes Bio",
+      "category": "Épicerie",
+      "brand": "LegumesBio",
+      "price": 3.20,
+      "description": "Lentilles vertes biologiques du Puy",
+      "nutritionalInfo": {
+        "calories": 352,
+        "protein": 25.0,
+        "carbs": 60.0,
+        "fat": 1.0,
+        "fiber": 10.7,
+        "sugar": 2.0,
+        "sodium": 6,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.9,
+        "packaging": "Carton recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "lentilles.png",
+      "barcode": "3250391234576"
+    },
+    {
+      "id": "PROD011",
+      "name": "Lait d'Amande Bio",
+      "category": "Boissons",
+      "brand": "AlmondDream",
+      "price": 3.80,
+      "description": "Boisson à base d'amandes biologiques, sans sucre ajouté",
+      "nutritionalInfo": {
+        "calories": 24,
+        "protein": 1.1,
+        "carbs": 1.8,
+        "fat": 1.3,
+        "fiber": 0.4,
+        "sugar": 0.1,
+        "sodium": 120,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.7,
+        "packaging": "Tetra Pak recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Fruits à coque"],
+      "imageUrl": "lait_amande.png",
+      "barcode": "3250391234577"
+    },
+    {
+      "id": "PROD012",
+      "name": "Poulet Fermier Bio",
+      "category": "Viandes",
+      "brand": "FermeNature",
+      "price": 12.50,
+      "description": "Poulet fermier bio élevé en plein air",
+      "nutritionalInfo": {
+        "calories": 165,
+        "protein": 31.0,
+        "carbs": 0,
+        "fat": 3.6,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 82,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 6.9,
+        "packaging": "Barquette recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "C"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "poulet_fermier.png",
+      "barcode": "3250391234578"
+    },
+    {
+      "id": "PROD013",
+      "name": "Céréales Muesli Bio",
+      "category": "Petit-déjeuner",
+      "brand": "MorningBio",
+      "price": 4.90,
+      "description": "Muesli bio aux fruits secs et graines",
+      "nutritionalInfo": {
+        "calories": 380,
+        "protein": 10.0,
+        "carbs": 62.0,
+        "fat": 9.0,
+        "fiber": 8.5,
+        "sugar": 18.0,
+        "sodium": 15,
+        "nutriScore": "B"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.2,
+        "packaging": "Carton recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Gluten", "Fruits à coque"],
+      "imageUrl": "muesli.png",
+      "barcode": "3250391234579"
+    },
+    {
+      "id": "PROD014",
+      "name": "Saumon Sauvage d'Alaska",
+      "category": "Poissons",
+      "brand": "OceanPure",
+      "price": 24.90,
+      "description": "Saumon sauvage pêché en Alaska, label MSC",
+      "nutritionalInfo": {
+        "calories": 208,
+        "protein": 25.0,
+        "carbs": 0,
+        "fat": 13.0,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 59,
+        "nutriScore": "B"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 11.9,
+        "packaging": "Sous-vide recyclable",
+        "origin": "Alaska",
+        "organic": false,
+        "ecoScore": "C"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": ["Poisson"],
+      "imageUrl": "saumon_alaska.png",
+      "barcode": "3250391234580"
+    },
+    {
+      "id": "PROD015",
+      "name": "Miel de Lavande",
+      "category": "Épicerie",
+      "brand": "RucheProvençale",
+      "price": 8.50,
+      "description": "Miel de lavande de Provence, récolte artisanale",
+      "nutritionalInfo": {
+        "calories": 304,
+        "protein": 0.3,
+        "carbs": 82.0,
+        "fat": 0,
+        "fiber": 0.2,
+        "sugar": 82.0,
+        "sodium": 4,
+        "nutriScore": "C"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.5,
+        "packaging": "Verre recyclable",
+        "origin": "France",
+        "organic": false,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "miel_lavande.png",
+      "barcode": "3250391234581"
+    },
+    {
+      "id": "PROD016",
+      "name": "Quinoa Tricolore Bio",
+      "category": "Épicerie",
+      "brand": "GrainsDuMonde",
+      "price": 6.20,
+      "description": "Quinoa bio tricolore (blanc, rouge, noir)",
+      "nutritionalInfo": {
+        "calories": 368,
+        "protein": 14.0,
+        "carbs": 64.0,
+        "fat": 6.0,
+        "fiber": 7.0,
+        "sugar": 0,
+        "sodium": 5,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 3.2,
+        "packaging": "Sachet papier recyclable",
+        "origin": "Pérou",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "quinoa.png",
+      "barcode": "3250391234582"
+    },
+    {
+      "id": "PROD017",
+      "name": "Beurre de Cacahuète Bio",
+      "category": "Épicerie",
+      "brand": "NutSpread",
+      "price": 5.40,
+      "description": "Beurre de cacahuète 100% bio sans sucre ajouté",
+      "nutritionalInfo": {
+        "calories": 588,
+        "protein": 25.0,
+        "carbs": 20.0,
+        "fat": 50.0,
+        "fiber": 8.0,
+        "sugar": 6.0,
+        "sodium": 18,
+        "nutriScore": "C"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 2.3,
+        "packaging": "Verre recyclable",
+        "origin": "Argentine",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": ["Arachides", "Traces de fruits à coque"],
+      "imageUrl": "beurre_cacahuete.png",
+      "barcode": "3250391234583"
+    },
+    {
+      "id": "PROD018",
+      "name": "Thé Vert Sencha Bio",
+      "category": "Boissons",
+      "brand": "TeaHarmony",
+      "price": 7.80,
+      "description": "Thé vert japonais Sencha bio",
+      "nutritionalInfo": {
+        "calories": 1,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 2,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.4,
+        "packaging": "Boîte métal recyclable",
+        "origin": "Japon",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "the_vert.png",
+      "barcode": "3250391234584"
+    },
+    {
+      "id": "PROD019",
+      "name": "Œufs Bio Plein Air",
+      "category": "Produits Laitiers",
+      "brand": "PouleHeureuse",
+      "price": 4.50,
+      "description": "Boîte de 6 œufs bio de poules élevées en plein air",
+      "nutritionalInfo": {
+        "calories": 143,
+        "protein": 12.6,
+        "carbs": 0.7,
+        "fat": 9.5,
+        "fiber": 0,
+        "sugar": 0.7,
+        "sodium": 140,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 4.2,
+        "packaging": "Carton recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Œufs"],
+      "imageUrl": "oeufs_bio.png",
+      "barcode": "3250391234585"
+    },
+    {
+      "id": "PROD020",
+      "name": "Avocat Bio",
+      "category": "Fruits et Légumes",
+      "brand": "TropicalGreen",
+      "price": 3.20,
+      "description": "Avocat Hass bio d'Espagne",
+      "nutritionalInfo": {
+        "calories": 160,
+        "protein": 2.0,
+        "carbs": 8.5,
+        "fat": 14.7,
+        "fiber": 6.7,
+        "sugar": 0.7,
+        "sodium": 7,
+        "nutriScore": "B"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.8,
+        "packaging": "Sans emballage",
+        "origin": "Espagne",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": [],
+      "imageUrl": "avocat.png",
+      "barcode": "3250391234586"
+    },
+    {
+      "id": "PROD021",
+      "name": "Flocons d'Avoine Bio",
+      "category": "Petit-déjeuner",
+      "brand": "GrainVital",
+      "price": 2.90,
+      "description": "Flocons d'avoine complets biologiques",
+      "nutritionalInfo": {
+        "calories": 389,
+        "protein": 16.9,
+        "carbs": 66.3,
+        "fat": 6.9,
+        "fiber": 10.6,
+        "sugar": 0.9,
+        "sodium": 2,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.9,
+        "packaging": "Carton recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Gluten"],
+      "imageUrl": "flocons_avoine.png",
+      "barcode": "3250391234587"
+    },
+    {
+      "id": "PROD022",
+      "name": "Confiture Fraise Bio",
+      "category": "Épicerie",
+      "brand": "ConfitureMaison",
+      "price": 4.80,
+      "description": "Confiture de fraises bio 70% de fruits",
+      "nutritionalInfo": {
+        "calories": 240,
+        "protein": 0.5,
+        "carbs": 59.0,
+        "fat": 0.2,
+        "fiber": 1.5,
+        "sugar": 55.0,
+        "sodium": 5,
+        "nutriScore": "D"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.6,
+        "packaging": "Verre recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "confiture_fraise.png",
+      "barcode": "3250391234588"
+    },
+    {
+      "id": "PROD023",
+      "name": "Steak Haché Bœuf Bio 5%",
+      "category": "Viandes",
+      "brand": "ViandeBio",
+      "price": 8.90,
+      "description": "Steak haché pur bœuf bio 5% MG",
+      "nutritionalInfo": {
+        "calories": 132,
+        "protein": 21.0,
+        "carbs": 0,
+        "fat": 5.0,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 75,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 27.0,
+        "packaging": "Barquette recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "D"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "B"
+      },
+      "allergens": [],
+      "imageUrl": "steak_hache.png",
+      "barcode": "3250391234589"
+    },
+    {
+      "id": "PROD024",
+      "name": "Couscous Complet Bio",
+      "category": "Épicerie",
+      "brand": "GrainsMéditerranée",
+      "price": 3.60,
+      "description": "Couscous complet biologique de blé dur",
+      "nutritionalInfo": {
+        "calories": 376,
+        "protein": 12.8,
+        "carbs": 77.4,
+        "fat": 1.8,
+        "fiber": 5.0,
+        "sugar": 1.5,
+        "sodium": 10,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.1,
+        "packaging": "Carton recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Gluten"],
+      "imageUrl": "couscous.png",
+      "barcode": "3250391234590"
+    },
+    {
+      "id": "PROD025",
+      "name": "Compote Pomme Bio Sans Sucre",
+      "category": "Épicerie",
+      "brand": "FruitEnPot",
+      "price": 3.20,
+      "description": "Compote de pommes bio sans sucre ajouté",
+      "nutritionalInfo": {
+        "calories": 52,
+        "protein": 0.3,
+        "carbs": 12.0,
+        "fat": 0.2,
+        "fiber": 1.5,
+        "sugar": 10.0,
+        "sodium": 2,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.4,
+        "packaging": "Verre recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "compote_pomme.png",
+      "barcode": "3250391234591"
+    },
+    {
+      "id": "PROD026",
+      "name": "Fromage Chèvre Frais Bio",
+      "category": "Produits Laitiers",
+      "brand": "ChèvreDoré",
+      "price": 5.90,
+      "description": "Fromage de chèvre frais biologique",
+      "nutritionalInfo": {
+        "calories": 210,
+        "protein": 14.0,
+        "carbs": 2.5,
+        "fat": 16.0,
+        "fiber": 0,
+        "sugar": 2.5,
+        "sodium": 350,
+        "nutriScore": "C"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 10.4,
+        "packaging": "Plastique recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "C"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Lait"],
+      "imageUrl": "chevre_frais.png",
+      "barcode": "3250391234592"
+    },
+    {
+      "id": "PROD027",
+      "name": "Soupe Légumes Bio",
+      "category": "Plats préparés",
+      "brand": "SoupeMaison",
+      "price": 3.80,
+      "description": "Soupe de légumes bio maison",
+      "nutritionalInfo": {
+        "calories": 45,
+        "protein": 1.2,
+        "carbs": 8.0,
+        "fat": 0.8,
+        "fiber": 2.0,
+        "sugar": 3.5,
+        "sodium": 450,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.5,
+        "packaging": "Brique recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Céleri"],
+      "imageUrl": "soupe_legumes.png",
+      "barcode": "3250391234593"
+    },
+    {
+      "id": "PROD028",
+      "name": "Biscuits Épeautre Bio",
+      "category": "Confiserie",
+      "brand": "BiscuitNature",
+      "price": 3.50,
+      "description": "Biscuits à l'épeautre biologique",
+      "nutritionalInfo": {
+        "calories": 450,
+        "protein": 8.0,
+        "carbs": 68.0,
+        "fat": 16.0,
+        "fiber": 4.5,
+        "sugar": 22.0,
+        "sodium": 250,
+        "nutriScore": "C"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.3,
+        "packaging": "Carton recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Gluten", "Œufs"],
+      "imageUrl": "biscuits_epeautre.png",
+      "barcode": "3250391234594"
+    },
+    {
+      "id": "PROD029",
+      "name": "Chips Légumes Bio",
+      "category": "Snacks",
+      "brand": "CrunchyVeggie",
+      "price": 2.90,
+      "description": "Chips de légumes bio (betterave, carotte, panais)",
+      "nutritionalInfo": {
+        "calories": 480,
+        "protein": 5.5,
+        "carbs": 52.0,
+        "fat": 28.0,
+        "fiber": 8.0,
+        "sugar": 18.0,
+        "sodium": 350,
+        "nutriScore": "C"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.5,
+        "packaging": "Sachet recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "chips_legumes.png",
+      "barcode": "3250391234595"
+    },
+    {
+      "id": "PROD030",
+      "name": "Eau Minérale Naturelle",
+      "category": "Boissons",
+      "brand": "SourcePure",
+      "price": 0.80,
+      "description": "Eau minérale naturelle de source",
+      "nutritionalInfo": {
+        "calories": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 5,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.2,
+        "packaging": "Plastique recyclable",
+        "origin": "France",
+        "organic": false,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "B"
+      },
+      "allergens": [],
+      "imageUrl": "eau_minerale.png",
+      "barcode": "3250391234596"
+    },
+    {
+      "id": "PROD031",
+      "name": "Houmous Traditionnel",
+      "category": "Plats préparés",
+      "brand": "MediterraFood",
+      "price": 3.50,
+      "description": "Houmous de pois chiches à la libanaise",
+      "nutritionalInfo": {
+        "calories": 166,
+        "protein": 7.9,
+        "carbs": 14.3,
+        "fat": 9.6,
+        "fiber": 6.0,
+        "sugar": 0.3,
+        "sodium": 380,
+        "nutriScore": "B"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.8,
+        "packaging": "Plastique recyclable",
+        "origin": "France",
+        "organic": false,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": ["Sésame"],
+      "imageUrl": "houmous.png",
+      "barcode": "3250391234597"
+    },
+    {
+      "id": "PROD032",
+      "name": "Café Arabica Bio",
+      "category": "Boissons",
+      "brand": "CaféMonde",
+      "price": 8.90,
+      "description": "Café 100% Arabica bio équitable moulu",
+      "nutritionalInfo": {
+        "calories": 2,
+        "protein": 0.1,
+        "carbs": 0,
+        "fat": 0,
+        "fiber": 0,
+        "sugar": 0,
+        "sodium": 2,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 4.5,
+        "packaging": "Paquet recyclable",
+        "origin": "Colombie",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "cafe_arabica.png",
+      "barcode": "3250391234598"
+    },
+    {
+      "id": "PROD033",
+      "name": "Tofu Nature Bio",
+      "category": "Produits végétariens",
+      "brand": "SojaVert",
+      "price": 2.80,
+      "description": "Tofu bio nature à base de soja français",
+      "nutritionalInfo": {
+        "calories": 76,
+        "protein": 8.0,
+        "carbs": 1.9,
+        "fat": 4.8,
+        "fiber": 0.3,
+        "sugar": 0.7,
+        "sodium": 7,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 2.0,
+        "packaging": "Plastique recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Soja"],
+      "imageUrl": "tofu.png",
+      "barcode": "3250391234599"
+    },
+    {
+      "id": "PROD034",
+      "name": "Bananes Bio Équitables",
+      "category": "Fruits et Légumes",
+      "brand": "TropicFair",
+      "price": 2.50,
+      "description": "Bananes bio du commerce équitable",
+      "nutritionalInfo": {
+        "calories": 89,
+        "protein": 1.1,
+        "carbs": 22.8,
+        "fat": 0.3,
+        "fiber": 2.6,
+        "sugar": 12.2,
+        "sodium": 1,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.6,
+        "packaging": "Sans emballage",
+        "origin": "République Dominicaine",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "bananes.png",
+      "barcode": "3250391234600"
+    },
+    {
+      "id": "PROD035",
+      "name": "Pois Chiches Bio",
+      "category": "Épicerie",
+      "brand": "LegumesSecs",
+      "price": 2.40,
+      "description": "Pois chiches biologiques secs",
+      "nutritionalInfo": {
+        "calories": 364,
+        "protein": 19.0,
+        "carbs": 61.0,
+        "fat": 6.0,
+        "fiber": 17.0,
+        "sugar": 11.0,
+        "sodium": 24,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.9,
+        "packaging": "Sachet papier recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "pois_chiches.png",
+      "barcode": "3250391234601"
+    },
+    {
+      "id": "PROD036",
+      "name": "Yaourt Grec 0%",
+      "category": "Produits Laitiers",
+      "brand": "GrecNature",
+      "price": 3.80,
+      "description": "Yaourt grec 0% matière grasse",
+      "nutritionalInfo": {
+        "calories": 59,
+        "protein": 10.0,
+        "carbs": 3.6,
+        "fat": 0.4,
+        "fiber": 0,
+        "sugar": 3.6,
+        "sodium": 36,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.5,
+        "packaging": "Plastique recyclable",
+        "origin": "France",
+        "organic": false,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "B"
+      },
+      "allergens": ["Lait"],
+      "imageUrl": "yaourt_grec.png",
+      "barcode": "3250391234602"
+    },
+    {
+      "id": "PROD037",
+      "name": "Vinaigre Balsamique Bio",
+      "category": "Épicerie",
+      "brand": "BalsamCo",
+      "price": 6.50,
+      "description": "Vinaigre balsamique de Modène IGP bio",
+      "nutritionalInfo": {
+        "calories": 88,
+        "protein": 0.5,
+        "carbs": 17.0,
+        "fat": 0,
+        "fiber": 0,
+        "sugar": 14.0,
+        "sodium": 23,
+        "nutriScore": "B"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.9,
+        "packaging": "Verre recyclable",
+        "origin": "Italie",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": ["Sulfites"],
+      "imageUrl": "vinaigre_balsamique.png",
+      "barcode": "3250391234603"
+    },
+    {
+      "id": "PROD038",
+      "name": "Smoothie Fruits Rouges Bio",
+      "category": "Boissons",
+      "brand": "FruitMix",
+      "price": 3.90,
+      "description": "Smoothie bio fraise, framboise, myrtille",
+      "nutritionalInfo": {
+        "calories": 54,
+        "protein": 0.6,
+        "carbs": 12.0,
+        "fat": 0.3,
+        "fiber": 1.8,
+        "sugar": 10.0,
+        "sodium": 5,
+        "nutriScore": "B"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.7,
+        "packaging": "Bouteille PET recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "smoothie_fruits_rouges.png",
+      "barcode": "3250391234604"
+    },
+    {
+      "id": "PROD039",
+      "name": "Noisettes Entières Bio",
+      "category": "Snacks",
+      "brand": "NutHarvest",
+      "price": 8.50,
+      "description": "Noisettes entières biologiques non salées",
+      "nutritionalInfo": {
+        "calories": 628,
+        "protein": 15.0,
+        "carbs": 17.0,
+        "fat": 61.0,
+        "fiber": 9.7,
+        "sugar": 4.3,
+        "sodium": 0,
+        "nutriScore": "C"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 2.3,
+        "packaging": "Sachet papier recyclable",
+        "origin": "Turquie",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Fruits à coque"],
+      "imageUrl": "noisettes.png",
+      "barcode": "3250391234605"
+    },
+    {
+      "id": "PROD040",
+      "name": "Sauce Tomate Basilic Bio",
+      "category": "Épicerie",
+      "brand": "ItaliaVera",
+      "price": 2.80,
+      "description": "Sauce tomate basilic bio faite maison",
+      "nutritionalInfo": {
+        "calories": 52,
+        "protein": 1.5,
+        "carbs": 8.0,
+        "fat": 1.8,
+        "fiber": 2.0,
+        "sugar": 6.0,
+        "sodium": 380,
+        "nutriScore": "B"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.6,
+        "packaging": "Verre recyclable",
+        "origin": "Italie",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": [],
+      "imageUrl": "sauce_tomate.png",
+      "barcode": "3250391234606"
+    },
+    {
+      "id": "PROD041",
+      "name": "Brocoli Frais Bio",
+      "category": "Fruits et Légumes",
+      "brand": "VergerLocal",
+      "price": 2.90,
+      "description": "Brocoli frais biologique de France",
+      "nutritionalInfo": {
+        "calories": 34,
+        "protein": 2.8,
+        "carbs": 7.0,
+        "fat": 0.4,
+        "fiber": 2.6,
+        "sugar": 1.7,
+        "sodium": 33,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.4,
+        "packaging": "Sans emballage",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "brocoli.png",
+      "barcode": "3250391234607"
+    },
+    {
+      "id": "PROD042",
+      "name": "Crème Fraîche Bio 15%",
+      "category": "Produits Laitiers",
+      "brand": "CremerieNature",
+      "price": 2.60,
+      "description": "Crème fraîche épaisse bio 15% MG",
+      "nutritionalInfo": {
+        "calories": 165,
+        "protein": 2.4,
+        "carbs": 3.0,
+        "fat": 15.0,
+        "fiber": 0,
+        "sugar": 3.0,
+        "sodium": 45,
+        "nutriScore": "C"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 6.2,
+        "packaging": "Pot plastique recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Lait"],
+      "imageUrl": "creme_fraiche.png",
+      "barcode": "3250391234608"
+    },
+    {
+      "id": "PROD043",
+      "name": "Épinards Frais Bio",
+      "category": "Fruits et Légumes",
+      "brand": "LegumesFrais",
+      "price": 3.20,
+      "description": "Épinards frais biologiques en feuilles",
+      "nutritionalInfo": {
+        "calories": 23,
+        "protein": 2.9,
+        "carbs": 3.6,
+        "fat": 0.4,
+        "fiber": 2.2,
+        "sugar": 0.4,
+        "sodium": 79,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.3,
+        "packaging": "Sachet plastique recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "epinards.png",
+      "barcode": "3250391234609"
+    },
+    {
+      "id": "PROD044",
+      "name": "Graines de Chia Bio",
+      "category": "Épicerie",
+      "brand": "SuperSeeds",
+      "price": 5.90,
+      "description": "Graines de chia biologiques",
+      "nutritionalInfo": {
+        "calories": 486,
+        "protein": 16.5,
+        "carbs": 42.0,
+        "fat": 31.0,
+        "fiber": 34.0,
+        "sugar": 0,
+        "sodium": 16,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.8,
+        "packaging": "Sachet papier recyclable",
+        "origin": "Mexique",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "graines_chia.png",
+      "barcode": "3250391234610"
+    },
+    {
+      "id": "PROD045",
+      "name": "Jambon Blanc Sans Nitrite",
+      "category": "Viandes",
+      "brand": "CharcuterieNature",
+      "price": 6.80,
+      "description": "Jambon blanc supérieur sans nitrite",
+      "nutritionalInfo": {
+        "calories": 115,
+        "protein": 21.0,
+        "carbs": 0.8,
+        "fat": 3.0,
+        "fiber": 0,
+        "sugar": 0.8,
+        "sodium": 620,
+        "nutriScore": "B"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 4.5,
+        "packaging": "Plastique recyclable",
+        "origin": "France",
+        "organic": false,
+        "ecoScore": "C"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "B"
+      },
+      "allergens": [],
+      "imageUrl": "jambon_blanc.png",
+      "barcode": "3250391234611"
+    },
+    {
+      "id": "PROD046",
+      "name": "Amandes Biologiques",
+      "category": "Snacks",
+      "brand": "NutDeluxe",
+      "price": 9.50,
+      "description": "Amandes entières bio non salées",
+      "nutritionalInfo": {
+        "calories": 579,
+        "protein": 21.0,
+        "carbs": 22.0,
+        "fat": 50.0,
+        "fiber": 12.5,
+        "sugar": 4.4,
+        "sodium": 1,
+        "nutriScore": "B"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 4.0,
+        "packaging": "Sachet papier recyclable",
+        "origin": "Californie",
+        "organic": true,
+        "ecoScore": "C"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "B"
+      },
+      "allergens": ["Fruits à coque"],
+      "imageUrl": "amandes.png",
+      "barcode": "3250391234612"
+    },
+    {
+      "id": "PROD047",
+      "name": "Lait Écrémé Bio",
+      "category": "Produits Laitiers",
+      "brand": "LaitFerme",
+      "price": 1.50,
+      "description": "Lait écrémé biologique 0% MG",
+      "nutritionalInfo": {
+        "calories": 35,
+        "protein": 3.5,
+        "carbs": 5.0,
+        "fat": 0.1,
+        "fiber": 0,
+        "sugar": 5.0,
+        "sodium": 50,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.2,
+        "packaging": "Brique recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": ["Lait"],
+      "imageUrl": "lait_ecreme.png",
+      "barcode": "3250391234613"
+    },
+    {
+      "id": "PROD048",
+      "name": "Pizza Margherita Bio",
+      "category": "Plats préparés",
+      "brand": "PizzaBio",
+      "price": 5.50,
+      "description": "Pizza margherita bio surgelée pâte fine",
+      "nutritionalInfo": {
+        "calories": 220,
+        "protein": 9.0,
+        "carbs": 28.0,
+        "fat": 8.0,
+        "fiber": 2.0,
+        "sugar": 3.5,
+        "sodium": 520,
+        "nutriScore": "B"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 2.8,
+        "packaging": "Carton recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "B"
+      },
+      "allergens": ["Gluten", "Lait"],
+      "imageUrl": "pizza_margherita.png",
+      "barcode": "3250391234614"
+    },
+    {
+      "id": "PROD049",
+      "name": "Salade Mesclun Bio",
+      "category": "Fruits et Légumes",
+      "brand": "SaladeFraiche",
+      "price": 2.50,
+      "description": "Mélange de jeunes pousses bio",
+      "nutritionalInfo": {
+        "calories": 20,
+        "protein": 2.0,
+        "carbs": 3.0,
+        "fat": 0.3,
+        "fiber": 2.0,
+        "sugar": 1.5,
+        "sodium": 28,
+        "nutriScore": "A"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 0.2,
+        "packaging": "Sachet plastique recyclable",
+        "origin": "France",
+        "organic": true,
+        "ecoScore": "A"
+      },
+      "ethicalInfo": {
+        "fairTrade": false,
+        "local": true,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "mesclun.png",
+      "barcode": "3250391234615"
+    },
+    {
+      "id": "PROD050",
+      "name": "Sirop d'Agave Bio",
+      "category": "Épicerie",
+      "brand": "SweetNature",
+      "price": 6.80,
+      "description": "Sirop d'agave biologique du Mexique",
+      "nutritionalInfo": {
+        "calories": 310,
+        "protein": 0.1,
+        "carbs": 76.0,
+        "fat": 0.5,
+        "fiber": 0.2,
+        "sugar": 68.0,
+        "sodium": 4,
+        "nutriScore": "D"
+      },
+      "ecologicalInfo": {
+        "carbonFootprint": 1.5,
+        "packaging": "Verre recyclable",
+        "origin": "Mexique",
+        "organic": true,
+        "ecoScore": "B"
+      },
+      "ethicalInfo": {
+        "fairTrade": true,
+        "local": false,
+        "ethicalScore": "A"
+      },
+      "allergens": [],
+      "imageUrl": "sirop_agave.png",
+      "barcode": "3250391234616"
+    }
+  ]
+}
