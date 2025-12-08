@@ -1,0 +1,48 @@
+{
+  "version": "1.0.0",
+  "name": "SmartRetailAR",
+  "description": "Smart Retail AR - Complete implementation with 4 sprints",
+  "unity_version": "2022.3.62f3",
+  "target_platforms": ["Android", "iOS"],
+  "min_android_api": 24,
+  "min_ios_version": "11.0",
+  "features": [
+    "QR Code Scanning",
+    "AR Product Recognition",
+    "AI Recommendations",
+    "Product Comparison",
+    "User Analytics",
+    "Performance Optimization"
+  ],
+  "database": {
+    "total_products": 5000,
+    "categories": 5,
+    "location": "Assets/Resources/Data/products_database.json"
+  },
+  "sprints": {
+    "sprint1": {
+      "name": "QR Scanner & Basic Info",
+      "scenes": 6,
+      "scripts": 9,
+      "status": "complete"
+    },
+    "sprint2": {
+      "name": "AR Integration",
+      "scenes": 4,
+      "scripts": 12,
+      "status": "complete"
+    },
+    "sprint3": {
+      "name": "Recommendations Engine",
+      "scenes": 5,
+      "scripts": 13,
+      "status": "complete"
+    },
+    "sprint4": {
+      "name": "Testing & Analytics",
+      "scenes": 5,
+      "scripts": 16,
+      "status": "complete"
+    }
+  }
+}
